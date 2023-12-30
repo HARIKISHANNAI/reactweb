@@ -1,0 +1,266 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+.nf{
+    width: 5vw;
+    height: 9vh;
+}
+.nf img{
+    width: 5vw;
+    height: 10vh;
+}
+.ns ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 8vw;
+}
+.ns ul li{
+    margin-left: 3vw;
+    cursor: pointer;
+}
+.ns ul li button{
+    box-shadow: 1px 1px 4px 1px;
+    border-radius: 8px;
+    padding: 1vh;
+}
+.hm{
+    width: 100vw;
+    min-height: 100vh;
+}
+.hmf{
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ8KV7DGx1gWz9V7noZLcsC4pDWIQmd-GiXw&usqp=CAU");
+}
+
+.hms{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(192, 192, 192, 0.329);
+}
+.smh{
+    width: 45vw;
+    height: 60vh;
+    padding: 5vw;
+}
+.smh h1{
+    font: bold;
+    font-size: 2vw;
+}
+.smhh{
+    font: bold;
+    font-size: 1vw;
+    width: 45vw;
+    height: 60vh;
+}
+.smhh img{
+    width: 40vw;
+    height: 60vh;
+}
+
+.hmt{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+}
+.hmtt{
+    width: 30vw;
+    height: 60vh;
+}
+.hmtt img{
+    width: 30vw;
+    height: 30vh;
+}
+.srvc{
+    width: 100vw;
+    height: 90vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.srvcf{
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.srvcff{
+    width: 30vw;
+    height: 40vh;
+    box-shadow: 2px 5px 5px 2px;
+    border-radius: 10px;
+}
+.srvcs{
+    width: 25vw;
+    height: 90vh;
+}
+.srvcff img{
+    width: 30vw;
+    height: 25vh;
+}
+.srvcff button{
+    box-shadow: 1px 1px 4px 1px;
+    border-radius: 10px;
+    background-color: rgba(192, 192, 192, 0.096);
+    margin-top: 2vh;
+}
+.ftre{
+    width: 100vw;
+    min-height: 100vh;
+}
+.fh{
+    margin-left: 40vw;
+    font: bold;
+    font-size: 2vw;
+    background-color: rgba(192, 192, 192, 0.37);
+    box-shadow: 1px 3px 3px 3px;
+    width: 9vw;
+}
+.ad{
+    width: 100vw;
+    height: auto;
+    border: 2px solid black;
+}
+.ad ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.ad ul li{
+    margin-left: 1vw;
+}
+.ad button{
+    border: 2px solid black;
+    background-color: rgba(192, 192, 192, 0.315);
+    border-radius: 10px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.sf{
+    width: 100vw;
+    height: auto;
+    margin-top: 2vh;
+    border: 1px solid black;
+}
+.sf input{
+    border: 2px solid black;
+}
+
+.tf{
+    width: 100vw;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 2vh;
+}
+
+.abt{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+}
+.abtf{
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black;
+}
+.abtf img{
+    width: 100%;
+    height: 30vh;
+}
+.abts{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    background-color: rgba(192, 192, 192, 0.226);
+}
+.abtss{
+    width: 20vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+.abtss h1{
+    font: bold;
+    font-size: 2vw;
+}
+.abtss ul {
+    margin-left: 5vw;
+}
+
+.ctn{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+}
+.ctnf{
+    width: 40vw;
+    height: 50vh;
+}
+.ctnf input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1vh;
+}
+
+.ctnf button{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(192, 192, 192, 0.226);
+    margin-top: 2vh;
+}
+
+.clnt{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.clntf{
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 5ps;
+}
+
